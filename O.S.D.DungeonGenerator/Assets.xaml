@@ -1,0 +1,56 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid x:Shared="False" x:Key="wall_north">
+        <Border Background="Black" BorderBrush="White" BorderThickness="0,1,0,0">
+        </Border>
+    </Grid>
+
+    <Grid x:Shared="False" x:Key="wall_east">
+        <Border Background="Black" BorderBrush="White" BorderThickness="0,0,1,0">
+        </Border>
+    </Grid>
+    <Grid x:Shared="False" x:Key="wall_west">
+        <Border Background="Black" BorderBrush="White" BorderThickness="1,0,0,0">
+        </Border>
+    </Grid>
+
+    <Grid x:Shared="False" x:Key="wall_south">
+        <Border Background="Black" BorderBrush="White" BorderThickness="0,0,0,1">
+        </Border>
+    </Grid>
+
+    <Grid x:Shared="False" x:Key="wall_south_west">
+        <Border Background="Black" BorderBrush="White" BorderThickness="1,0,0,1">
+        </Border>
+    </Grid>
+    <Grid x:Shared="False" x:Key="wall_north_west">
+        <Border Background="Black" BorderBrush="White" BorderThickness="1,1,0,0">
+        </Border>
+    </Grid>
+
+    <Grid x:Shared="False" x:Key="wall_south_east">
+        <Border Background="Black" BorderBrush="White" BorderThickness="0,0,1,1">
+        </Border>
+    </Grid>
+    <Grid x:Shared="False" x:Key="wall_north_east">
+        <Border Background="Black" BorderBrush="White" BorderThickness="0,1,1,0">
+        </Border>
+    </Grid>
+    <Grid x:Shared="False" x:Key="tile_room">
+        <Border Background="Black"  BorderBrush="Red" BorderThickness="1">
+        </Border>
+    </Grid>
+    <Grid x:Shared="False" x:Key="tile_exitentrance">
+        <Border Background="Chartreuse"  BorderBrush="Orange" BorderThickness="1">
+        </Border>
+    </Grid>
+    <Grid x:Shared="False" x:Key="tile_empty">
+        <Border Background="DeepSkyBlue"  BorderBrush="White" BorderThickness="1">
+        </Border>
+    </Grid>
+    <Grid x:Shared="False" x:Key="tile_corridor">
+        <Border Background="Maroon"  BorderBrush="DarkOrchid" BorderThickness="1">
+        </Border>
+    </Grid>
+</ResourceDictionary>
