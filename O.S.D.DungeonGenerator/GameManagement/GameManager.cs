@@ -94,7 +94,7 @@ namespace O.S.D.DungeonGenerator.GameManagement
                 {
                     return;
                 }
-                DoClearAndGen();
+                await DoClearAndGen();
             }
             catch (Exception e)
             {

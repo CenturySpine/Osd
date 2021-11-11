@@ -36,16 +36,16 @@ namespace O.S.D.DungeonGenerator.CharacterManagement
             {
                 case 1:
                     return 200;
-                    break;
+
                 case 2:
                     return 150;
-                    break;
+
                 case 5:
                     return 100;
-                    break;
+
                 case 10:
                     return 0;
-                    break;
+
                 default:
                     throw new InvalidEnumArgumentException("Velocity not in valid range values");
             }

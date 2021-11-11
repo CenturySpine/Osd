@@ -119,7 +119,7 @@ namespace O.S.D.DungeonGenerator.DungeonGeneration
                 case StartingPosition.Center:
                     return (Direction)NumGen.Next(0, 4);
 
-                    break;
+                    
                 default:
                     throw new ArgumentOutOfRangeException();
             }
