@@ -7,7 +7,7 @@ namespace O.S.D.GameManagement
     {
         public override void Register(Container maincontainer)
         {
-            maincontainer.RegisterSingleton(this);
+            maincontainer.RegisterInstance(this);
             maincontainer.Register<IGameAreaManager, GameAreaManager>(Lifestyle.Singleton);
             maincontainer.Register<ITileDiscoveringService, TileDiscoveringService>(Lifestyle.Singleton);
             maincontainer.Register<IAreaInfos, AreaInfos>(Lifestyle.Singleton);

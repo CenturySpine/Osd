@@ -14,7 +14,6 @@ namespace O.S.D.GameManagement
 
         private readonly ITileDiscoveringService _tileDisc;
         private int _tileCount;
-        private int _maxTileNumber;
 
         public GameAreaManager(ITileDiscoveringService tileDisc, IAreaInfos areainfos)
         {
